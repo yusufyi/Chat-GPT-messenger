@@ -2,6 +2,7 @@
 import { useSession, signOut } from "next-auth/react";
 import React from "react";
 import NewChat from "./NewChat";
+import Image from "next/image";
 
 const SideBar = () => {
   const { data: session } = useSession();
