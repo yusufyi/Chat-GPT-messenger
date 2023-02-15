@@ -4,7 +4,7 @@ type Props = {
 };
 const Chat = ({ chatId }: Props) => {
   console.log(chatId);
-  return <div>Chat Id:{chatId}</div>;
+  return <div className="flex-1">Chat Id:{chatId}</div>;
 };
 
 export default Chat;
